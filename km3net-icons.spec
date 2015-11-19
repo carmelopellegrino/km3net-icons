@@ -18,6 +18,7 @@ Simple icon set for KM3NeT
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/km3net/
+cp index.theme $RPM_BUILD_ROOT/usr/share/icons/km3net/
 cp -r 8x8   $RPM_BUILD_ROOT/usr/share/icons/km3net/
 cp -r 16x16 $RPM_BUILD_ROOT/usr/share/icons/km3net/
 cp -r 22x22 $RPM_BUILD_ROOT/usr/share/icons/km3net/
