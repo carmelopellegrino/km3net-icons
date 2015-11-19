@@ -8,6 +8,7 @@ License:        INFN
 URL:            https://github.com/carmelopellegrino/km3net-icons
 Source0:        https://github.com/carmelopellegrino/km3net-icons
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildArch:      noarch
 Requires:
 %description
 Simple icon set for KM3NeT
