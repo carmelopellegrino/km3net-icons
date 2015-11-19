@@ -18,12 +18,12 @@ Simple icon set for KM3NeT
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/usr/share/icons/km3net/
-cp 8x8   $RPM_BUILD_ROOT/usr/share/icons/km3net/
-cp 16x16 $RPM_BUILD_ROOT/usr/share/icons/km3net/
-cp 22x22 $RPM_BUILD_ROOT/usr/share/icons/km3net/
-cp 24x24 $RPM_BUILD_ROOT/usr/share/icons/km3net/
-cp 32x32 $RPM_BUILD_ROOT/usr/share/icons/km3net/
-cp 48x48 $RPM_BUILD_ROOT/usr/share/icons/km3net/
+cp -r 8x8   $RPM_BUILD_ROOT/usr/share/icons/km3net/
+cp -r 16x16 $RPM_BUILD_ROOT/usr/share/icons/km3net/
+cp -r 22x22 $RPM_BUILD_ROOT/usr/share/icons/km3net/
+cp -r 24x24 $RPM_BUILD_ROOT/usr/share/icons/km3net/
+cp -r 32x32 $RPM_BUILD_ROOT/usr/share/icons/km3net/
+cp -r 48x48 $RPM_BUILD_ROOT/usr/share/icons/km3net/
 
 %post
 /usr/bin/update-desktop-database &> /dev/null || :
